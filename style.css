@@ -1,0 +1,420 @@
+
+div.navbar-nav{
+    margin-left: 60%;
+  
+    
+}
+
+a.nav-item.nav-link.active{
+    text-decoration: none;
+    color: #fff;
+}
+
+a.nav-item.nav-link.active:hover{
+    background-color: white;
+    color: #6F7997; 
+}
+
+
+nav.navcolor{
+    background-color: #6F7997;
+}
+
+
+
+
+
+
+.display-4{
+    text-align: center;
+    font-weight: 500;
+    color: #6F7997;   
+}
+
+.carousel-item img{
+    filter:brightness(80%);
+    
+    
+}
+
+
+.jumbotron-fluid{
+   font-family: 'Caladea', serif;
+    text-transform: uppercase;
+    margin-top: 15px;
+  
+}
+
+
+
+  /************Normal Headings ********8888*/
+
+h3.updateHeading{
+    color:#6F7997;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+
+
+   /****************Images headings*******************/
+
+h2.img-heading{
+    color: #6F7997;
+   text-align: center;
+    padding: 14px;
+    
+}
+
+
+p.img-paragraph{
+    text-align: center;
+    padding: 5px;
+}
+
+p.placeList{
+   text-align: center;
+    padding: 5px;
+    color: #6F7997;
+    font-weight: 600;
+}
+
+ol.img-orderList{
+   text-align: center;
+    list-style-position: inside;
+    padding: 5px;
+}
+/****************Images heading end*******************/
+
+input[type="text"]{
+    padding: 7px;
+    font-size: 20px;
+    width: 310px;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.75); 
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+
+
+
+/***********ALL IMAGES BOXES *****************/
+.thumbnail-container .box{
+  
+    position: relative;
+    box-sizing: border-box;
+    border: 0.3px solid white;
+    display: block;
+    margin: auto;
+    padding:0;
+    overflow: hidden;       
+}
+
+
+
+    
+/**********BOXES END ******************/
+
+
+/***********Home Page Image Transitions *******************/
+
+
+
+.thumbnail-container .box img{
+   
+    display: block;
+    margin: auto;
+    transition: transform 1s;
+        
+    
+}
+
+.thumbnail-container .box:hover img{
+    filter: brightness(90%);
+    transform: scale(1.2)
+}
+
+.thumbnail-container .box .details{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+    
+    
+}
+
+.thumbnail-container .box:hover .details{
+    transform: scaleY(1);
+}
+
+.thumbnail-container .box .details .content{
+    position: absolute;
+    top:15%;
+    color: #fff;
+   
+    padding: 0;
+}
+
+.thumbnail-container .box .details .content h2{
+    color: yellow;
+    text-align: center;
+}
+.thumbnail-container .box .details .content p{
+   text-align: center;
+}
+
+.thumbnail-container .box .details .content small{
+    color:white;   
+}
+
+/**************Home Page Transitions End **************************8*/
+
+/************* Social Icons ****************/
+.socialWrapper{
+  
+    padding: 20px;
+
+   margin-left: 40px;
+        
+}
+
+.fa-instagram{
+    margin-left: 15px;
+    color: #E1306C;
+}
+
+.fa-instagram:hover{
+   color: #6F7997;
+}
+
+.fa-facebook-f{
+    margin-left: 15px;
+    color: #3b5998;
+}
+
+fa-facebook-f:hover{
+   color: deeppink;
+}
+
+.fa-twitter{
+    margin-left: 15px;
+    color: #00acee;
+}
+
+fa-twitter:hover{
+   color: hotpink;
+}
+
+/*************** Social Icons End ******************/
+hr.dashedLine{
+    border-top: 1px dashed #6F7997;
+    margin-top: 0;
+    
+}
+
+button.subscribeBtn{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #6F7997;
+    text-transform: uppercase;
+    
+}
+
+button.butt{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color:#6F7997;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    
+}
+
+button.butt:hover{
+    background-color: red;
+}
+
+button.subscribeBtn:hover{
+    background-color: red;
+}
+
+.mostFavouriteGrid .gridcolright{
+    
+    margin-top: 5px;
+}
+
+.mostFavouriteGrid .gridcolright:hover{
+    filter: brightness(80%);
+}
+
+
+
+.mostFavouriteGrid .gridcolleft{
+   
+    margin-top: 5px;
+}
+
+.mostFavouriteGrid .gridcolleft:hover{
+    
+    filter: brightness(80%);
+}
+
+#more{
+    display: none;
+}
+
+
+
+/***********************Footer************************/
+
+footer.footsy{
+    background-color: #6F7997;
+    width: 100%;
+    
+    
+}
+
+footer.footsy img{
+    border-radius: 50%;
+    margin:20px;
+    width: 75%;
+    
+}
+
+p.footer-paragraph{
+    margin-top: 50px;
+    color: #fff;
+}
+
+.footer-icons .fa-instagram{
+    color: #fff;
+}
+
+.footer-icons .fa-facebook-f{
+    color: #fff;
+}
+
+.footer-icons .fa-twitter{
+    color: #fff;
+}
+
+
+
+/***************MEDIA QUERIES***************/
+
+
+@media only screen and (max-width: 680px){
+
+    h1.display-4{
+        font-size: 20px;
+    }
+    
+    input[type="text"]{
+        width: 100%;
+        
+    }
+    .socialWrapper{
+        text-align: center;
+    }
+    
+    .thumbnail-container .box{
+        max-width: 100%;
+       
+    }
+    
+    .mostFavouriteGrid .gridcolleft img{
+        display: block;
+        margin: auto;
+    }
+    
+    .mostFavouriteGrid .gridcolright img{
+        display: block;
+        margin: auto;
+    }
+    
+    img.article{
+        width: 75%;
+        display: block;
+        margin: auto;
+    }
+    
+     .carousel-inner.nitiksha{
+        width: 75%;
+         display: block;
+         margin: auto;
+    }
+}
+   
+    
+    
+    
+    
+
+}
+/********************** Media Queries-2 ***********************/
+
+@media only screen and (min-width:756px) and (max-width:767px){
+    input[type="text"]{
+        width: 100%;
+    }
+    
+    .mostFavouriteGrid .gridcolleft img{
+        padding: 0;
+    }
+    
+     
+
+/*************** Media Queries-3 ***********************/
+    
+@media only screen and (min-width:681px) and (max-width:766px){
+      .mostFavouriteGrid .gridcolleft img{
+        display: block;
+        margin: auto;
+    }
+    
+    .mostFavouriteGrid .gridcolright img{
+        display: block;
+        margin: auto;
+    }
+    
+    img.article{
+        width:75%;
+        display: block;
+        margin: auto;
+    }
+     .carousel-inner.nitiksha{
+        width: 75%;
+         display: block;
+         margin: auto;
+    }
+}
+
+  /************** Media Queries-3************8*/
+
+@media only screen and (min-width:768px) and (max-width:1010px){
+    input[type="text"]{
+        width: 125%;
+    }
+    .socialWrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+    }
+    
+     .mostFavouriteGrid .gridcolleft img{
+        padding: 0;
+    }
+}
+
+
+
+
+
+
